@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#000000</color>
+    <color name="textColor">#F1EBEB</color>
+    <color name="darkColor">#E8E2E2</color>
+    <color name="colorPrimaryDark">#343534</color>
+    <color name="white">#000000</color>
+    <color name="cardView">#000000</color>
+    <color name="cardViewbg">#68292727</color>
+    <color name="coursesbg">#2B2C2B</color>
+    <color name="buttonColor">#83DD86</color>
+    <color name="loginPage">#464D75</color>
+    <color name="RegisterText">#4CFF00</color>
+    <color name="ForgetPassword">#009688</color>
+    <color name="searchbar">#EDDDDD</color>
+    <color name="search">#6E6969</color>
+    <color name="grey2">#D6CFCF</color>
+
+    <color name="Linkedin">#2F5A9C</color>
+    <color name="drawerText">#ECECEC</color>
+
+
+
+</resources>

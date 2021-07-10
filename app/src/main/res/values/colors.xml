@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#120E0E</color>
+    <color name="colorPrimaryDark">#151E1C</color>
+    <color name="facultyBg">#706969</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="teal_200">#22615B</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#100F0F</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navigate_state">#00EFE9E9</color>
+    <color name="navigationBar">#68292727</color>
+    <color name="cardView">#68292727</color>
+    <color name="cardViewbg">#68292727</color>
+    <color name="coursesbg">#E9EFEE</color>
+    <color name="buttonColor">#83DD86</color>
+    <color name="loginPage">#3C488E</color>
+    <color name="RegisterText">#00FAE2</color>
+    <color name="ForgetPassword">#FA0000</color>
+    <color name="searchbar">#000000</color>
+    <color name="search">#EAE4E4</color>
+
+
+
+    <color name="textColor">#3f3b3b</color>
+    <color name="facultyTextColor">#fff</color>
+    <color name="titleColor">#1b272c</color>
+    <color name="darkColor">#313131</color>
+    <color name="grey">#D1CECE</color>
+    <color name="grey1">#4f4f4f</color>
+    <color name="grey2">#D6CFCF</color>
+    <color name="Linkedin">#315DA1</color>
+    <color name="courseCardViewIn">#B6B5B3</color>
+    <color name="courseCardViewOut">#85DDC9A0</color>
+    <color name="drawerText">#3AD840</color>
+
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "158227766041",
+    "firebase_url": "https://gbpiet-13b5a-default-rtdb.firebaseio.com",
+    "project_id": "gbpiet-13b5a",
+    "storage_bucket": "gbpiet-13b5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158227766041:android:11ff7c4348b7cc3c438388",
+        "android_client_info": {
+          "package_name": "com.example.gbpiet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158227766041-dqt9gdn4mpodg667k80edi4h4ihf0djr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdNCZU29XHL_8YvlpksQKTm8Ncp8kg-tI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158227766041-dqt9gdn4mpodg667k80edi4h4ihf0djr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158227766041:android:25431d6279d84b55438388",
+        "android_client_info": {
+          "package_name": "com.example.gbpietadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158227766041-dqt9gdn4mpodg667k80edi4h4ihf0djr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdNCZU29XHL_8YvlpksQKTm8Ncp8kg-tI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158227766041-dqt9gdn4mpodg667k80edi4h4ihf0djr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

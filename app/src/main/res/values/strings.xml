@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">G B P I E T</string>
+
+    <string name="black" tools:ignore="ReferenceType">@font/cairo_black</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/cairo_regular</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/cairo_bold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/cairo_light</string>
+    <string name="semi_bold" tools:ignore="ReferenceType">@font/cairo_semi_bold</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="clgAddress">Ghurdauri , Pauri , Garhwal , Uttarakhand ,246194</string>
+    <string name="clg_name">Govind Ballabh Pant Institute of Engineering &amp; Technology</string>
+    <string name="about_clg">Govind Ballabh Pant Institute of Engineering &amp; Technology, Pauri is an Institute with total
+        commitment to quality and excellence in academic pursuits. The College was established in 1989, as an autonomous body,
+        with a view to fulfil the ever-growing demand for well-trained professionals. It is one of the few premier colleges
+        imparting technical education in the state of Uttarakhand.</string>
+
+
+    <string name="meet_greet">Meet &amp; Greet</string>
+    <string name="rights">&#169;kaYp </string>
+    <string name="passWarning">Use the Combination of Upper&amp;Lower Case Characters ,SpecialSymbols with NoWhiteSpaces</string>
+
+
+    <string name="CollegeName">Govind Ballabh Pant Institute Of <br />Engineering And Technology ,<br />Pauri</string>
+    <string name="email_pattern">[a–zA-Z0-9._-]+@[a-z]+\\.+[a-z]+</string>
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+</resources>

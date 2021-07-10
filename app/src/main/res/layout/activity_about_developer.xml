@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentication.LoginActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="325dp"
+
+                    android:background="@color/loginPage"
+                    android:orientation="vertical"
+                    android:paddingTop="35dp">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/info"
+                        android:textColor="@color/coursesbg"
+                        android:textSize="27sp" />
+
+                    <View
+                        android:layout_width="80dp"
+                        android:layout_height="4dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="22dp"
+                        android:background="@color/coursesbg" />
+
+
+                </LinearLayout>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="-50dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Name  : Krishna Pant"
+                            android:padding="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/textColor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Dept    : Master of computer Science"
+                            android:padding="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/textColor"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Batch  : 2019- 22"
+                            android:padding="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@color/textColor"
+                            android:textStyle="bold" />
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

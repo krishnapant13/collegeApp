@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_main_icon" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="334dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="GBPIET"
+                    android:textColor="@color/textColor"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date :"
+                        android:fontFamily="@string/light"
+                        android:textSize="18sp"
+                        android:layout_marginRight="2dp"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13 mar 1999"
+                        android:id="@+id/date"
+                        android:fontFamily="@string/light"
+                        android:textSize="18sp"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time :"
+                        android:fontFamily="@string/light"
+                        android:layout_marginLeft="@dimen/text_margin"
+                        android:textSize="18sp"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12:00"
+                        android:id="@+id/time"
+                        android:fontFamily="@string/light"
+                        android:textSize="18sp"
+                        android:textColor="@color/textColor"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gb_text"
+            android:layout_marginVertical="@dimen/text_margin"
+            android:text="This is My project in Android Using the java and this project is
+for my college and i'll upload this Project  at my developers account in PlayStore"
+            android:textSize="17sp"
+            android:textColor="@color/textColor"/>
+        <ImageView
+            android:id="@+id/gb_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

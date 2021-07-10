@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".ui.about.aboutFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            android:id="@+id/collegeImage"/>
+
+
+        <TextView
+            android:id="@+id/aboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:fontFamily="@string/light"
+            android:text="@string/about_clg"
+
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/text_size"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/title_size"
+            android:text="Facilities"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/tittle"
+            android:fontFamily="@string/bold"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_transe" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transportation"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_library"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Center Library"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_internet" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Internet"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_hosp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_guest" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guest House Complex"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_sports"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sport Complex"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_bank"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banking"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_post"
+                    android:layout_gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post Office"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_comp"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Computer Center"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_margin"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_work"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Workshop"
+                    android:layout_gravity="center"
+                    android:fontFamily="@string/bold"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/darkColor"
+                    android:layout_marginLeft="@dimen/text_margin"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/title_size"
+            android:text="Courses"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/tittle"
+            android:fontFamily="@string/bold"/>
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:background="@color/grey2"
+            android:layout_width="match_parent"
+            android:padding="15dp"
+            android:layout_height="500dp"
+            android:layout_marginTop="@dimen/text_margin"
+            android:foregroundGravity="center"
+            android:clipToPadding="false"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbarThumbHorizontal="@color/grey"
+            android:id="@+id/coursesViewPager" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="5dp"
+            android:paddingVertical="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/text_margin"
+            android:text="Contact Details"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/title_size"
+            android:fontFamily="@string/bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clg_name"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clgAddress"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01368 228 030"
+            android:layout_marginTop="@dimen/text_margin"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/light"/>
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

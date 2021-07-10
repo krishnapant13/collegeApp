@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigationHome">
+
+    <fragment android:id="@+id/navigationHome"
+        android:name="com.example.gbpiet.ui.home.homeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+
+
+    <fragment android:id="@+id/navigationNotice"
+        android:name="com.example.gbpiet.ui.notice.noticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice"/>
+
+
+    <fragment android:id="@+id/navigationFaculty"
+        android:name="com.example.gbpiet.ui.faculty.facultyFragment"
+        android:label="Faculty"
+        tools:layout="@layout/fragment_faculty"/>
+
+
+    <fragment android:id="@+id/navigationGallery"
+        android:name="com.example.gbpiet.ui.gallery.galleryFragment"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_gallery"/>
+
+    <fragment android:id="@+id/navigationAboutUs"
+        android:name="com.example.gbpiet.ui.about.aboutFragment"
+        android:label="AboutUs"
+        tools:layout="@layout/fragment_about"/>
+
+</navigation>
