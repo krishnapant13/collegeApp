@@ -16,6 +16,11 @@
     <color name="searchbar">#EDDDDD</color>
     <color name="search">#6E6969</color>
     <color name="grey2">#D6CFCF</color>
+    <color name="logotext">#FDFDFD</color>
+
+    <color name="circleColor">#421377</color>
+
+    <color name="circleColor1">#3B4DA6</color>
 
     <color name="Linkedin">#2F5A9C</color>
     <color name="drawerText">#ECECEC</color>
